@@ -21,9 +21,12 @@ import com.example.Server11;
 @RestController
 public class SampleApplication extends SpringBootServletInitializer {
 
-    private final Logger log = LoggerFactory.getLogger(getClass());
+    private static final Logger log = LoggerFactory.getLogger(SampleApplication.class);
 
     public static void main(String[] args) {
+    	log.info("=======================");
+    	log.info("=======================");
+    	log.info("=======================");
         SpringApplication.run(SampleApplication.class);
     }
     
